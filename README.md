@@ -1,2 +1,1 @@
-# ws-vendas-api
-micro serviço icts vendas
+ws-vendas-api
