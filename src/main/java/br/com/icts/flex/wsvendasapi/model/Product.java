@@ -37,17 +37,17 @@ public class Product implements Serializable {
 	@Column(name = "descricao")
 	private String descricao;
 
-	@Column(name = "urlImagem")
+	@Column(name = "url_imagem")
 	private String urlImagem;
 
 	@NotNull(message = "Valor de compra não pode ser nulo")
 	@Min(value = 0, message = "Valor de compra não pode ser menor que zero")
-	@Column(name = "valorCompra")
+	@Column(name = "valor_compra")
 	private Double valorCompra;
 
 	@NotNull(message = "Campo ValorVenda não pode ser nulo")
 	@Min(value = 0, message = "Valor de venda não pode ser menor que zero")
-	@Column(name = "valorVenda")
+	@Column(name = "valor_venda")
 	private Double valorVenda;
 
 	public Long getId() {
